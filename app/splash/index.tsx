@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Image, StyleSheet } from 'react-native';
+import { Text, View, Image, StyleSheet, Animated } from 'react-native';
 import Logo from '../../assets/airbird.svg';
 import colors from "../../theme/colors";
 import { useFonts } from "expo-font";

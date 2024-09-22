@@ -1,12 +1,15 @@
 import React from "react";
 import { Text, View, StyleSheet } from 'react-native';
-import Splash from "./splash";
-
+import Onboard from "./onboarding/onboard";
+import { FontProvider } from "../FontContext";
+import Onboarding from "./onboarding";
 const Start = () => {
   return(
-    <View style={styles.container}>
-      <Splash />
-    </View>
+    <FontProvider>
+      <View style={styles.container}>
+        <Onboarding />
+      </View>
+    </FontProvider>
   );
 }
 
